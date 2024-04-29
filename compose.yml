@@ -1,0 +1,7 @@
+services:
+  go:
+    image: golang
+    container_name: go
+    ports:
+      - 8000:8000
+    tty: true
